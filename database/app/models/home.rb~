@@ -1,0 +1,4 @@
+class Home < ActiveRecord::Base
+  attr_accessible :id, :name
+  validates :name, :length => { :maximum => 5 }
+end
