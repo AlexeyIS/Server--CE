@@ -1,5 +1,7 @@
 Database::Application.routes.draw do
-  resources :homes
+  resources :tests
+
+  resources :devices
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
